@@ -12,7 +12,7 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 10%;
 }
 
 .cabecalho__menu{
@@ -29,11 +29,19 @@ body{
 }
 
 .apresentacao{
-    padding: 3% 15%;
+    padding: 3% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.apresentacao__about{
+    padding: 3% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .apresentacao__conteudo{
     width: 615px;
     display: flex;
@@ -43,6 +51,11 @@ body{
 
 .apresentacao__conteudo__titulo{
     font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__subtitulo{
+    font-size: 28px;
     font-family: 'Krona One', sans-serif;
 }
 
