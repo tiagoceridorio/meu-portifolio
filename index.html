@@ -11,7 +11,12 @@
 </head>
 
 <body>
-  <header></header>
+  <header class="cabecalho">
+    <nav class="cabecalho__menu">
+      <a class="cabecalho__menu__link">Home</a>
+      <a class="cabecalho__menu__link">Sobre Mim</a>
+    </nav>
+  </header>
   <main class="apresentacao">
     <section class="apresentacao__conteudo">
       <h1 class="apresentacao__conteudo__titulo">
@@ -33,13 +38,18 @@
       </p>
 
       <div class="apresentacao__links">
-        <a class="apresentacao__links__link" href="https://www.linkedin.com/in/tiago-ferreira-ceridorio/"> Linkedin</a>
-        <a class="apresentacao__links__link" href="https://github.com/tiagoceridorio/"> Github</a>
+        <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+        <a class="apresentacao__links__link" href="https://www.linkedin.com/in/tiago-ferreira-ceridorio/">
+          <img src="./assets/linkedin.png" alt="Logo do Linkedin"> Linkedin</a>
+        <a class="apresentacao__links__link" href="https://github.com/tiagoceridorio/"> <img src="./assets/github.png"
+            alt="Logo do Github"> Github</a>
       </div>
     </section>
-    <img src="imagem.jpeg" alt="Imagem do desenvolvedor" />
+    <img class="imagen-desenvolvedor" src="./assets/imagem.jpeg" alt="Imagem do desenvolvedor" />
   </main>
-  <footer></footer>
+  <footer>
+    <p class="rodape">Desenvolvido por Tiago Ceridorio</p>
+  </footer>
 </body>
 
 </html>
